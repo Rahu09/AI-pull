@@ -16,6 +16,7 @@ npm start
 - follow the installation guide and install the github app on all the repositories in which you want it to funtion.
 - your app will be created.
 - after completing everything just add the gpt-3.5-turbo api key in .env file.
+- A video example have been given below.
 
 ```sh
   API = <your-api-key>
