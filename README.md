@@ -1,4 +1,4 @@
-# my-app
+# a2aproject
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that a2aproject
 
@@ -10,6 +10,15 @@ npm install
 
 # Run the bot
 npm start
+
+```
+- now go to localhost:3000 and click on register github app.
+- follow the installation guide and install the github app on all the repositories in which you want it to funtion.
+- your app will be created.
+- after completing everything just add the gpt-3.5-turbo api key in .env file.
+
+```sh
+  API = <your-api-key>
 ```
 
 ## Docker
@@ -22,18 +31,19 @@ docker build -t my-app .
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> my-app
 ```
 
+## DEMO VIDEO
+- If you want to see the demo then create a pull req in any of my repository.
+- Select the code portion you want to be explained or you want to perform any query on.
+- create a pull request review comment "/explain" for ai to explain that code or your custom query.
+
+https://github.com/Rahu09/a2aproject/assets/89607570/1ecff89a-ab81-4a17-98d6-a7145c21683c
+
+
 ## Contributing
 
 If you have suggestions for how my-app could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
-
-## DEMO VIDEO
-
-
-https://github.com/Rahu09/a2aproject/assets/89607570/1ecff89a-ab81-4a17-98d6-a7145c21683c
-
-
 
 ## License
 
