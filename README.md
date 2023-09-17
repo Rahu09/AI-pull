@@ -1,7 +1,22 @@
 # a2aproject
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that a2aproject
-> app LINK [a2aproject](https://github.com/apps/a2aproject)
+> App LINK [a2aproject](https://github.com/apps/a2aproject)
+
+## Summary Report: Developing an AI-Powered GitHub App
+- In the pursuit of simplifying the life of codebase maintainers, the goal of this project was to create an application capable of providing a quick understanding of the purpose and potential issues within large codebase pull requests. The chosen approach involved harnessing the power of artificial intelligence (AI) for this purpose.
+
+- Initially, I embarked on this project with a limited understanding of GitHub apps, prompting me to dive into GitHub's documentation to gain insights. However, the time-consuming nature of this approach raised concerns about meeting the project's deadlines, given that I started working on it at 9 pm. Consequently, I opted for the Probot setup recommended in the assignment, which offered a faster route but with slightly less control over the app's functionality.
+
+- Progress was relatively smooth until the crucial step of sending responses as review comments. While my intention was to deliver responses in this manner, I encountered challenges with the endpoint, which may have been misconfigured on my part. Consequently, I resorted to posting responses as pull request comments, which, while functional, had some impact on the user experience.
+
+- Ultimately, I successfully integrated the server with the OpenAI API to generate responses, a task that proved relatively straightforward. However, I believe there are several avenues for improvement for this app:
+    1. Seamless Review Comments: Enhancing the app to deliver responses as review comments within the same page would significantly improve user experience and streamline the review process.
+    2. iston API Integration: Integrating the Piston API on the server side, as planned, would add valuable functionality to the app. This could enable features such as code analysis and automatic issue labeling using the OpenAI API.
+    3. Expanded Utilities: The potential for expanding the app's utility is vast. Incorporating additional features, such as code labeling based on OpenAI API analysis, could make the app even more valuable for codebase maintainers.
+
+- In conclusion, while this AI-powered GitHub app has made strides in simplifying the code review process, there remain opportunities for refinement and expansion. Addressing the suggested improvements would enhance its functionality and user-friendliness, ultimately achieving the initial aim of easing the burdens of codebase maintenance.
+
+
 
 ## Setup
 
