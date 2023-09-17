@@ -14,6 +14,7 @@ npm start
 ```
 - now go to localhost:3000 and click on register github app.
 - follow the installation guide and install the github app on all the repositories in which you want it to funtion.
+  (first query may take some time as it is deployed on render(https://dashboard.render.com) which is serverless that's why it only start running it's server after 1st query is made)
 - your app will be created.
 - after completing everything just add the gpt-3.5-turbo api key in .env file.
 - A video example have been given below.
