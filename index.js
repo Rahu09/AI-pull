@@ -7,12 +7,13 @@
  */
 
 module.exports = (app) => {
+  require("dotenv").config();
   app.log.info("Yay, the app was loaded!");
 
   const OpenAI = require("openai");
 
   const openai = new OpenAI({
-    apiKey: process.env.ApI,
+    apiKey: process.env.API,
   });
 
   async function helper(prompt) {
